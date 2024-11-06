@@ -1,0 +1,157 @@
+.size {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+} 
+
+.background-image {
+    margin-top: 50px; /* Space from the top */
+    padding-top: 20%; /* Optional: Adds space to the content */
+    background-image: url('https://focus.namirial.it/wp-content/uploads/sites/2/2021/07/dark-web-e-deep-web-1536x1024.jpeg');
+    background-size: cover;
+    background-position: center 30%; /* Adjust to push the background image down */
+    height: 80vh; /* Full viewport height */
+    width: 100%; /* Full width */
+    color: white; /* Text color */
+    display: flex; /* Flexbox for centering content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.w-40 {
+    width: 45%;
+}  
+
+.w-110 {
+    width: 110%;
+} 
+
+.socialIcon {
+    width: 30px;
+    height: 30px;
+    color: white;
+} 
+
+.socialIcon:hover {
+  color: #d3d3d3;
+}  
+
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    padding-top: 100px;
+}
+  
+.modal-content {
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    max-width: 450px; /* Adjust the width as needed */
+    width: 100%;
+    margin-top: -210px;
+} 
+
+.modal-content-reg {
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    max-width: 450px; /* Adjust the width as needed */
+    width: 75%;
+    height: 75%;
+    margin-top: -380px;
+}
+
+.form-select {
+    background-color: white; /* Dark background */
+    color: #555555;              /* White text color */
+    border: 1px solid #ced4da; /* Border color */
+    padding: 0.5rem;           /* Padding inside select */
+    font-size: 1rem;           /* Font size */
+    border-radius: 0.5rem;     /* Rounded edges */
+}
+
+.form-select:focus {
+    outline: none;
+    border-color: #80bdff;     /* Border color on focus */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Shadow on focus */
+}
+
+.form-select option {
+    background-color: white; /* Background for dropdown items */
+    color: #555555;              /* Text color for items */
+} 
+
+.text {
+    color: #555555;
+} 
+
+.popup-overlay {
+    position: fixed; /* Fixes the position of the overlay */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark translucent background */
+    display: flex; /* Centers content */
+    align-items: center; /* Vertically centers */
+    justify-content: center; /* Horizontally centers */
+    z-index: 1000; /* Ensures it's above other elements */
+  }
+  
+  .popup-content {
+    background-color: white; /* White background for content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+    width: 90%; /* Responsive width */
+    max-width: 500px; /* Max width to avoid overly large popups */
+    padding: 16px; /* Padding inside the popup */
+    position: relative; /* For positioning the close button */
+  } 
+
+  .popup-header {
+    display: flex; /* Aligns header items in a row */
+    justify-content: space-between; /* Spaces out items */
+    align-items: center; /* Vertically centers items */
+}
+
+.avatar-container {
+    margin: 20px 0; /* Margin around avatar */
+    display: flex; /* Centers the avatar */
+    justify-content: center; /* Horizontally centers */
+    align-items: center; /* Vertically centers */
+}
+
+.popup-text {
+    margin: 10px 0; /* Margin around text elements */
+    text-align: center; /* Centers text */
+}
+
+.btn-close {
+    position: absolute; /* Position relative to popup content */
+    top: 10px; /* Position from the top */
+    right: 10px; /* Position from the right */
+    background-color: #a00000;
+    color: white;
+    border-radius: 7px;
+} 
+
+.btn-close-course-details {
+    position: absolute; /* Position relative to popup content */
+    top: 10px; /* Position from the top */
+    right: 10px; /* Position from the right */
+    background-color: #a00000;
+    color: white;
+    border-radius: 7px;
+}
+
+.btn-close:hover {
+    background-color: #ff0000;
+}
